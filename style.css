@@ -6,6 +6,7 @@ body, html{
   font-weight:400;
   line-height:1.8em;
   color:#666;
+ 
 }
 
 .wrappper{
@@ -15,6 +16,7 @@ body, html{
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 }
 
 #creativityid{
@@ -31,8 +33,40 @@ body, html{
   scroll-snap-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-size:10px;}
 
+         
+    h2{
+      font-size:14px;
+    }
+    h3{
+      font-size:12px;
+      
+    }
 
+       nav{
+      font-size: 12px;
+    
+    }
+    .nav li a{
+      font-size:12px;
+     
+    }
+    
+    p{
+      font-size:12px;
+
+    }
+
+ 
+
+   
+  }
+      
+ 
+ 
 
 
 
@@ -53,7 +87,7 @@ body, html{
   background-attachment: fixed;
   padding: 1rem;
   scroll-snap-align: center;
- 
+  overflow:hidden;
 }
 
 .qss {
@@ -91,7 +125,7 @@ body, html{
 
 .nav {
 
-  border: 1px solid #ccc;
+    border: 1px solid #ccc;
   border-width: 1px 0;
   list-style: none;
   margin: 0;
@@ -244,7 +278,9 @@ body, html{
  
 }
 .gridWrap{
-  display: grid;
+  overflow: hidden;
+  
+   display: grid;
   grid-template-columns: 33.33% 33.33% 33.33%;
 
 
@@ -256,7 +292,9 @@ body, html{
 .ourTeam div { 
   text-align: center;
   color: white;
-  padding: 5rem;
+
+  overflow: hidden;
+  
 
 }
 .ourTeam img{
