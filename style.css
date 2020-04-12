@@ -228,6 +228,7 @@ body, html{
   background-image: url(Resources/coffe.jpeg);
   min-height: 100%;
   position: relative;
+  overflow:hidden;
   
   background-position: center;
   background-size: cover;
