@@ -1,0 +1,283 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.wrappper{
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#creativityid{
+  scroll-snap-align: center;
+}
+#aboutUsDivid{
+  scroll-snap-align: center;
+
+}
+#customersReviewsid{
+  scroll-snap-align: center;
+}
+#ourTeamid{
+  scroll-snap-align: center;
+}
+
+
+
+
+
+
+
+
+.creativity {
+  background-image: url(Resources/asa.jpeg);
+  min-height: 100%;
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+  padding: 1rem;
+  scroll-snap-align: center;
+ 
+}
+
+.qss {
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+
+.creativity p {
+  
+  text-align: center;
+  vertical-align: middle;
+  line-height: inherit;
+  color:white;
+  padding: 2rem;
+
+}
+
+.creativity h2 {
+  text-align: center;
+  padding: 3rem;
+  font-family: Verdana;
+  color: #F0E68C;
+}
+.creativity h1 {
+  text-align: center;
+  padding: 5rem;
+  font-family: Verdana;
+  color: #F0E68C;
+}
+
+
+
+.nav {
+
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: sticky; /* Set the navbar to fixed position */
+  /* Position the navbar at the top of the page */
+  top:0;
+
+  
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav li a:hover {
+  background-color: white;
+  color: skyblue;
+  
+}
+
+
+
+
+
+
+.specialFont {
+  color: skyblue;
+  text-decoration: overline;
+  
+  
+}
+
+
+
+
+
+
+
+
+.aboutUs {
+  background-image: url(Resources/pexels-photo-904616.jpeg);
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+  
+}
+
+
+.aboutUsDiv{
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+
+.aboutUsDiv p{
+  text-align: center;
+  vertical-align: middle;
+  line-height: inherit;
+  color:white;
+  padding: 2rem;
+
+}
+
+.aboutUs h1 {
+  text-align: center;
+  padding: 5rem;
+  font-family: Verdana;
+  color: #F0E68C;
+  border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+.customersReviews {
+  background-image: url(Resources/coffe.jpeg);
+  min-height: 100%;
+  position: relative;
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+  text-align: center;
+  color: red;
+  padding: 1rem;
+
+}
+
+.customersReviews div {
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+.customersReviews h1 {
+  text-align: center;
+  padding: 5rem;
+  font-family: Verdana;
+  color: #F0E68C;
+  border: 1px solid #ccc;
+}
+
+
+
+.ourTeam {
+  background-image: url(Resources/pexels-photo-851555.jpeg);
+  min-height: 100%;
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+  color: red;
+  padding: 1rem;
+
+
+ 
+}
+.gridWrap{
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+
+
+}
+.gridWrap div{
+  border: 1px solid white;
+}
+
+.ourTeam div { 
+  text-align: center;
+  color: white;
+  padding: 5rem;
+
+}
+.ourTeam img{
+  text-align: center;
+  max-width: 150px;
+  border-radius: 50%;
+}
+.ourTeam h1 {
+  text-align: center;
+  padding: 5rem;
+  font-family: Verdana;
+  color: #F0E68C;
+  border: 1px solid #ccc;
+}
+
+
+
+.ourAdress {
+  background-image: url(Resources/sas.jpeg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: red;
+}
